@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Wheel of Fortune</title>
+  <meta name="description" content="Wheel of Fortune">
+  <meta name="author" content="StackUp">
+
+  <link rel="stylesheet" href="css/index.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  
+<div id="game">
+    <div id="display"></div>
+    <div id="playArea">
+        <button id="spin">spin wheel</button>
+        <button id="vowel">buy vowel</button>
+        <button id="solve">solve puzzle</button>
+        <button id="newpuzzle">new puzzle</button>
+        <div id="moneyArea">Score: $<span id="money">0</span>
+
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="tick">⇩</div>
+    <img id="wheel" src="http://i.imgur.com/R7JYazp.png" data-rotation="0" />
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
